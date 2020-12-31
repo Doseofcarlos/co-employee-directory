@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div>
         <Wrapper>
-          <Route exact path="/employee_directory" component={MainPage}/>
+          <Route exact path="/" component={MainPage}/>
           {/* <Route exact path="/*" component={ErrorPage}/> */}
           </Wrapper>
         <Footer />
